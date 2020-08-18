@@ -15,6 +15,9 @@ export class GoalDetailComponent implements OnInit {
     this.isComplete.emit(complete);
   }
 
+  goalDelete(complete: boolean){
+    this.isComplete.emit(complete);
+  }
   constructor() { }
 
   ngOnInit() {
